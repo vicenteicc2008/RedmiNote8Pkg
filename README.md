@@ -6,3 +6,6 @@ ARM32 (ARM)
 
 ## Status
 WORK IN PROGRESS
+
+## WARNING
+This UEFI is only for testing any ARM32 OS but dont try to install Windows RT on your Redmi Note 8 or any ARM64 device or your ARM64 phone will be bricked or cause BSOD
