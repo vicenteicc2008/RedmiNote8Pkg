@@ -2,7 +2,6 @@
 I want to test Windows 8 (Windows RT 8.0 or Windows RT 8.1) on my Redmi Note 8 
 
 ## Architectures Supported
-ARM64 (AARCH64)
 ARM32 (ARM)
 
 ## Status
