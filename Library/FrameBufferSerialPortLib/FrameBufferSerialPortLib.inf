@@ -11,7 +11,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   ArmPkg/ArmPkg.dec
-  Lumia930Pkg/Lumia930Pkg.dec
+  RedmiNote8Pkg/RedmiNote8Pkg.dec
 
 [LibraryClasses]
   ArmLib
