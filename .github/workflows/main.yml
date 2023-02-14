@@ -45,7 +45,7 @@ jobs:
         cat "/home/runner/work/EDK2WorkDir/edk2/RedmiNote8Pkg/ginkgo.dtb" >>kernel
         cp kernel /home/runner/work/EDK2WorkDir/edk2/RedmiNote8Pkg/kernel
         cd /home/runner/work/EDK2WorkDir/edk2/RedmiNote8Pkg
-        python3 "mkbootimg.py" --kernel "kernel" --ramdisk ramdisk --kernel_offset 0x00000000 --ramdisk_offset 0x00000000 --tags_offset 0x00000000 --os_version "9.0.0" --os_patch_level "2020-11" --header_version 2 -o "/home/runner/work/EDK2WorkDir/boot-ginkgo.img" 
+        python3 "mkbootimg.py" --kernel "kernel" --ramdisk ramdisk --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --os_version "9.0.0" --os_patch_level "2020-11" --header_version 1 -o "/home/runner/work/EDK2WorkDir/boot-ginkgo.img" 
 
     - uses: actions/upload-artifact@v3
       with:
