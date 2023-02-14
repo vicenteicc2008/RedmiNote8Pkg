@@ -96,8 +96,8 @@
   gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x09c00000
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
 
-  gLumia930PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x9CD00000 #0FF00000
-  gLumia930PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
+  gRedmiNote8PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x9CD00000 #0FF00000
+  gRedmiNote8PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
   ## Default Terminal Type
   ## 0-PCANSI, 1-VT100, 2-VT00+, 3-UTF8, 4-TTYTERM
   gEfiMdePkgTokenSpaceGuid.PcdDefaultTerminalType|4
