@@ -1,0 +1,27 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = RedmiNote8Pkg
+  PACKAGE_GUID                   = cd560434-f88c-4e47-971b-152fdbfd18df
+  PACKAGE_VERSION                = 0.1
+
+[Includes.common]
+  Include                        # Root include for the package
+
+[Guids.common]
+  gRedmiNote8PkgTokenSpaceGuid = { 0x4c59628e, 0x0a8a, 0x4099, { 0x8d, 0xe5, 0xf2, 0x08, 0xff, 0x80, 0xc4, 0xbf } }
+
+[PcdsFixedAtBuild.common]
+  # Simple FrameBuffer
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x5c000000|UINT32|0x99
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080|UINT32|0x100
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340|UINT32|0x101
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x102
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x103
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1920|UINT32|0x104
+  gArmPlatformTokenSpaceGuid.PcdSystemMemoryUefiRegionSize|0x08000000|UINT32|0x00000015
+  #gArmPlatformTokenSpaceGuid.PcdCPUCoresStackBase|0|UINT64|0x00000009
+  gArmPlatformTokenSpaceGuid.PcdCPUCorePrimaryStackSize|0x10000|UINT32|0x00000037
+  gArmPlatformTokenSpaceGuid.PcdCPUCoreSecondaryStackSize|0x10000|UINT32|0x0000000A
+  # Memory allocation
+  gRedmiNote8PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x9CD00000|UINT64|0x00000a106
+  gRedmiNote8PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000|UINT32|0x00000a107
