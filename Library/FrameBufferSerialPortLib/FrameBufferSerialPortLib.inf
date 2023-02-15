@@ -26,3 +26,5 @@
   gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
   gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
   gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gRedmiNote8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight
